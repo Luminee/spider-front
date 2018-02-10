@@ -1,7 +1,7 @@
 <template>
 
   <div>
-    <h2>{{title}}&nbsp;{{funcName}}</h2>
+    <h4>{{title}}&nbsp;{{funcName}}</h4>
     <span>
       <icon name="database"></icon>{{msg}}</span>
     <table class="gridtable">
