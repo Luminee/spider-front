@@ -54,9 +54,9 @@
 
       </tr>
     </table>
-    <span>
+    <span v-if="setModel!=null">
       <icon name="database"></icon>{{msg2}}</span>
-    <table class="gridtable">
+    <table class="gridtable" v-if="setModel!=null">
       <tr>
         <th>别名</th>
         <th>类名</th>
@@ -66,7 +66,7 @@
         <th>更新日期</th>
       </tr>
 
-      <tr>
+      <tr >
         <td>
           {{setModel.alias}}
         </td>
